@@ -22,7 +22,7 @@ function App() {
     
     try{
       
-   const response=await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API}`);
+   const response=await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${REACT_API_KEY}`);
    console.log(response.data);
     setResult([response.data.main]);
     setCity(response.data.name);
