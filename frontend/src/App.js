@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import axios from 'axios';
+process.env.API
 
 
 function App() {
