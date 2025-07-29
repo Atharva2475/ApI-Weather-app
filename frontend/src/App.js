@@ -15,7 +15,7 @@ function App() {
 
 
 
-  const API="886f02e8d4b9c5fcbdb74290262dab6e";
+  
   async function handleSearch(event){
       event.preventDefault();
     
